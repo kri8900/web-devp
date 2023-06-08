@@ -1,0 +1,304 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-image: url(images/b3.jpg);
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+ /*...................................... start header..............................*/
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    
+    
+    
+}
+#add_one{
+    box-sizing: border-box;
+    float: left;
+    margin-top: 10px;
+}
+#add_two{
+    box-sizing: border-box;
+    float: right;
+    margin-top: -18px;
+
+}
+#add_three{
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+       /* ...................................end header.............................*/
+
+       /*.............................. start Nav..................................*/
+nav{
+      width:100%;
+      height: 60px;
+      background-color:rgba(174, 38, 42,1);
+      position: fixed;
+    
+
+    }
+#s1{
+    width:100%;
+    height: 60px;
+    background-color:rgba(174, 38, 42,);
+}
+#list-items{
+    display: inline-block;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 17px;
+    border-radius: 0px 15px 0px 15px ;
+    background-color: rgba(174, 38, 42,0);
+}
+.list-items-menu{
+    position: relative;
+}
+#list-item2{
+    border-style: solid;
+    border-color: rgb(6, 6, 6);
+    border-width: 1px;
+    width: 179px;
+    height: 221px;
+    box-sizing: border-box;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 3px 6px 6px;
+    position: absolute;
+    top: 60px;
+    background-color: skyblue;
+    display: none;
+}
+.list-items-menu:hover #list-item2{
+    display: block;
+    transition: 0.8s;
+}
+.list-i{
+    margin-left: 404px;
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+    font-family:sans-serif;
+    font-weight: bold;
+}
+#list-items:hover a{
+    color: black;
+}
+#list-items:hover{
+    background-color:skyblue;
+    transition: 1s;
+
+}
+#logo{
+    width: 200px;
+    height: 60px;
+    float: left;
+    background-color: #fff;
+}
+#list-sub-items{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 178px;
+    height: 55px;
+    list-style: none;
+    box-sizing: border-box;
+    padding-top: 15px;
+    
+}
+.list-sub-items-top{
+    border-radius: 15px 15px 0px 0px;
+}
+.list-sub-items-bottom{
+    border-radius: 0px 0px 15px 15px;
+}
+#sub-items{
+color: blueviolet;
+font-weight: bold;
+}
+#list-sub-items:hover{
+    background-color: #251af4;
+}
+#list-sub-items:hover #sub-items{
+    color: white;
+}
+
+
+/*..................................end nav................................*/
+
+
+/*...........................................start section......................*/
+
+#section-1{ 
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(174,38,42);
+    width: 100%;
+    height: 702px;
+    background-color: rgb(174,38,42);
+    box-sizing: border-box;
+    
+}
+#section-1img{
+    float: right;
+
+}
+#fieldset-1{
+     width: 700px;
+     height: 400px;
+     margin-top: 50px;
+     margin-left: 50px;
+     box-sizing: border-box;
+     padding: 15px;
+     border-width: 2px;
+     border-style: solid;
+     border-color: rgb(153, 237, 203);
+
+
+}
+#leg-one{
+    font-family: verdana;
+    font-size: 30px;
+    font-style: bold;
+    color: rgb(15, 15, 15);
+    
+}
+#section-h1{
+    color: yellow;
+}
+#section-p1{
+    line-height: 27px;
+}
+#section-2img{
+    border-color: rgb(174,38,42);;
+    border-width: 1px;
+    border-style: solid;
+    width: 199px;
+    height: 151px;
+    display: inline-block;
+    margin-top: 50px;
+     margin-left: 50px;
+     box-sizing: border-box;
+}
+#section-2{
+    width: 100%;
+    height: 450px;
+    float: right;
+}
+#fieldset-2{
+    width: 55%;
+    height:400px ;
+    float: right;
+    margin: 25px;
+    border-width: 2px;
+     border-style: solid;
+     border-color: black;
+     padding: 15px;
+     box-sizing: border-box;
+
+}
+#fieldset-3{
+    width: 55%;
+    height:400px ;
+    float: left;
+    margin: 25px;
+    border-width: 2px;
+     border-style: solid;
+     border-color: black;
+     padding: 15px;
+     box-sizing: border-box;
+}
+#menu-bar{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 100%;
+    height: 950px;
+    float: left;
+    background-color: rgb(149,157,108);
+}
+/*....................................................End section......................*/
+
+/*................................start footer.........................................*/
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color:whitesmoke;
+    float: left;
+}
+#f1{
+    width: 400px;
+    height: 280px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+#f2{
+    width: 400px;
+    height: 280px;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#contact-text{
+    font-weight: normal;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+address{
+    padding-left: 70px;
+    padding-top: 10px;
+    color: blue;
+
+}
+#follow{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 40px;
+    
+}
+h3{
+    text-align: center;
+}
+#social-media{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+#lable{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    padding-top: 11px;
+}
+.text-center-text-light{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 36%;
+}
+
+/* ......................end footer....................*/
